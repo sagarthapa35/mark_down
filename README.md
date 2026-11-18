@@ -30,6 +30,7 @@ Follow these steps to organize a smooth and enjoyable trip on the trails:
 
 To discover detailed trail maps, elevation profiles, and recent hiker reviews worldwide, explore [AllTrails](https://www.alltrails.com/).
 
+
 ### Trail Pace Estimator
 
 If you want to estimate how long a hike might take based on distance and elevation gain (using Naismith's Rule), here is a simple Python snippet:
@@ -44,3 +45,5 @@ climb_hours = elevation_gain_m / 600.0
 total_hours = round(base_hours + climb_hours, 2)
 
 print(f"Estimated hiking time: {total_hours} hours")
+
+
